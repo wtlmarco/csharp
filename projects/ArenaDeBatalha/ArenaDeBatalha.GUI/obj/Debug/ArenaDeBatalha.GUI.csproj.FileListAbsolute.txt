@@ -1,0 +1,14 @@
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.AssemblyReference.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.SuggestedBindingRedirects.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.FormPrincipal.resources
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.Properties.Resources.resources
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.GenerateResource.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.CoreCompileInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GUI.exe.config
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GUI.exe
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GUI.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GameLogic.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GameLogic.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.CopyComplete
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.exe
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.pdb

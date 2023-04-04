@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaDeBatalha.GUI", "ArenaDeBatalha.GUI\ArenaDeBatalha.GUI.csproj", "{0DF5E05D-8E64-4AAE-A62C-ACF4796FBC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaDeBatalha.GameLogic", "ArenaDeBatalha.GameLogic\ArenaDeBatalha.GameLogic.csproj", "{A658C8CD-697B-4513-A619-5D38E9B9E8C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF5E05D-8E64-4AAE-A62C-ACF4796FBC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF5E05D-8E64-4AAE-A62C-ACF4796FBC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF5E05D-8E64-4AAE-A62C-ACF4796FBC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF5E05D-8E64-4AAE-A62C-ACF4796FBC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A658C8CD-697B-4513-A619-5D38E9B9E8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A658C8CD-697B-4513-A619-5D38E9B9E8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A658C8CD-697B-4513-A619-5D38E9B9E8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A658C8CD-697B-4513-A619-5D38E9B9E8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FFCA487-7E8A-40EE-8D45-D0877E9B3719}
+	EndGlobalSection
+EndGlobal

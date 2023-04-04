@@ -1,0 +1,8 @@
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\bin\Debug\ArenaDeBatalha.GameLogic.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\bin\Debug\ArenaDeBatalha.GameLogic.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\obj\Debug\ArenaDeBatalha.GameLogic.csproj.AssemblyReference.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\obj\Debug\ArenaDeBatalha.GameLogic.Media.resources
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\obj\Debug\ArenaDeBatalha.GameLogic.csproj.GenerateResource.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\obj\Debug\ArenaDeBatalha.GameLogic.csproj.CoreCompileInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\obj\Debug\ArenaDeBatalha.GameLogic.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ArenaDeBatalha\ArenaDeBatalha.GameLogic\obj\Debug\ArenaDeBatalha.GameLogic.pdb
