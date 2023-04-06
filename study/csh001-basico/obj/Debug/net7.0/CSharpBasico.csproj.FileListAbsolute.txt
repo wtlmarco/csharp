@@ -1,0 +1,17 @@
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\CSharpBasico.exe
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\CSharpBasico.deps.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\CSharpBasico.runtimeconfig.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\CSharpBasico.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\CSharpBasico.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.csproj.AssemblyReference.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.GeneratedMSBuildEditorConfig.editorconfig
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.AssemblyInfoInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.AssemblyInfo.cs
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.csproj.CoreCompileInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\refint\CSharpBasico.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.genruntimeconfig.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\ref\CSharpBasico.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\obj\Debug\net7.0\CSharpBasico.csproj.CopyComplete

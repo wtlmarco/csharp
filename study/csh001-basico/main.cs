@@ -29,7 +29,7 @@ class Program
         //Aula08.Exercicio01.Run();
 
         //Aula09.Exercicio01.Run();
-        
+
         //Aula10.Exercicio01.Run();
         //Aula10.Exercicio02.Run();
         //Aula10.Exercicio03.Run();
@@ -37,6 +37,23 @@ class Program
         //Aula11.Exercicio01.Run();
 
         //Aula12.Exercicio01.Run();
-        Aula12.Exercicio02.Run();
+        //Aula12.Exercicio02.Run();
+
+        //Aula13.Exercicio01.Run();
+        //Aula13.Exercicio02.Run();
+
+        //Aula14.Exercicio01.Run();
+
+        //Aula15.Exercicio01.Run();
+        //Aula15.Exercicio02.Run();
+        //Aula15.Exercicio03.Run();
+        //Aula15.Exercicio04.Run();
+        //Aula15.Exercicio05.Run();
+
+        //Aula16.Exercicio01.Run();
+        //Aula16.Exercicio02.Run();
+        //Aula16.Exercicio03.Run();
+
+        Aula17.Exercicio01.Run();
     }
 }

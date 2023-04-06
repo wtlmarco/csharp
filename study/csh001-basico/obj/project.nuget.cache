@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4JW94MUkvyhXMgyE7kSo/J+hXY0JsINpw9wAuCZaQ7yTCXBJmB/C+tjSr3HnKLS9UbE4A8sXbWidrMpcSw74ag==",
+  "dgSpecHash": "h/8QMiz3hqfVIBKgwpSiAi6AyWScEZM0nYMRJHrgEjGAWBcj93nJw9aJPp9NE0EA6qzsNb+5zCRvChKhIen+7Q==",
   "success": true,
-  "projectFilePath": "/home/runner/csharp-basico-1/main.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\servers\\apache-php-8.2.4\\htdocs\\csharp\\study\\csh001-basico\\csh001-basico.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MARCO\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\MARCO\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\MARCO\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

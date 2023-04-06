@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CSharpBasico</id>
+    <version>1.0.0</version>
+    <authors>CSharpBasico</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\CSharpBasico.runtimeconfig.json" target="lib\net7.0\CSharpBasico.runtimeconfig.json" />
+    <file src="C:\servers\apache-php-8.2.4\htdocs\csharp\study\CSharpBasico\bin\Debug\net7.0\CSharpBasico.dll" target="lib\net7.0\CSharpBasico.dll" />
+  </files>
+</package>
