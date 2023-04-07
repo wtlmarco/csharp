@@ -1,0 +1,15 @@
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.csproj.AssemblyReference.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.AssemblyInfoInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.AssemblyInfo.cs
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.csproj.CoreCompileInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\bin\Debug\net7.0\csh002-aspnet.exe
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\bin\Debug\net7.0\csh002-aspnet.deps.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\bin\Debug\net7.0\csh002-aspnet.runtimeconfig.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\bin\Debug\net7.0\csh002-aspnet.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\bin\Debug\net7.0\csh002-aspnet.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\refint\csh002-aspnet.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\csh002-aspnet.genruntimeconfig.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\obj\Debug\net7.0\ref\csh002-aspnet.dll
