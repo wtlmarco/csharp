@@ -1,0 +1,15 @@
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\bin\Debug\net7.0\ServidorHttpSimples.exe
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\bin\Debug\net7.0\ServidorHttpSimples.deps.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\bin\Debug\net7.0\ServidorHttpSimples.runtimeconfig.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\bin\Debug\net7.0\ServidorHttpSimples.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\bin\Debug\net7.0\ServidorHttpSimples.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.csproj.AssemblyReference.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.GeneratedMSBuildEditorConfig.editorconfig
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.AssemblyInfoInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.AssemblyInfo.cs
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.csproj.CoreCompileInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\refint\ServidorHttpSimples.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ServidorHttpSimples.genruntimeconfig.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\projects\ServidorHttpSimples\obj\Debug\net7.0\ref\ServidorHttpSimples.dll
