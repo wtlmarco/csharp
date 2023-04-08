@@ -62,9 +62,11 @@
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">Windows Forms - Jogo Arena de Batalha</a>
     :triangular_flag_on_post:
   </li>
+   <li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ServidorHttpSimples">Console App - Servidor Htttp Simples com Framework Básico próprio</a>
+    :triangular_flag_on_post:
+  </li>
  </ul>
- :compass: Planejado  :compass:
- 
  
 <p align="right">(<a href="#readme-top">topo</a>)</p>
 
