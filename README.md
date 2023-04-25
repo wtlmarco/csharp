@@ -59,9 +59,9 @@
 </h3>
 <ul>
   <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">ASP.NET MVC - Controle de Estoque</a>:triangular_flag_on_post:
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">ASP.NET - Controle de Estoque</a>:triangular_flag_on_post:
     <br>
-    <sup>Framework .NET 7, Entity com Sqlite e Bootstrap 5</sup>
+    <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite e Bootstrap 5</sup>
   </li>
   <li>
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">Windows Forms - Jogo Arena de Batalha</a>:triangular_flag_on_post:
