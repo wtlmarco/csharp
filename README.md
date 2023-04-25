@@ -59,7 +59,7 @@
 </h3>
 <ul>
   <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">ASP.NET - Controle de Estoque</a>:triangular_flag_on_post:
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ControleDeEstoque">ASP.NET - Controle de Estoque</a>:triangular_flag_on_post:
     <br>
     <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite e Bootstrap 5</sup>
   </li>
