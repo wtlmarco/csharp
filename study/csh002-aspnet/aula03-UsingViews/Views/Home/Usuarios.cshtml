@@ -1,0 +1,53 @@
+@model IQueryable<Usuario>  
+
+@{
+    ViewBag.Subtitulo = "Listagem";
+}
+
+<h1 class="text-primary">Usuários</h1>
+<hr>
+<a class="btn btn-primary" href="/Home/Cadastrar">Novo Usuário</a>
+@if (TempData.ContainsKey("Excluiu"))
+{  
+    var excluiu = (bool)TempData["Excluiu"];
+    if(excluiu)
+    {
+        <partial name="_MensagemInfo" model="@("Usuário excluído com sucesso.")"></partial>
+    }
+    else
+    {
+        <partial name="_MensagemErro" model="@("Não foi possível excluir o usuário.")"></partial>
+    }   
+}
+<table class="table">
+    <thead>
+        <tr>
+            <td>Nome</td>
+            <td>E-mail</td>
+            <td>Ações</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Nome</td>
+                <td>@u.Email</td>
+                <td>
+                    <a asp-action="Cadastrar" asp-route-id="@u.IdUsuario" class="btn btn-sm btn-secondary">Alterar</a>
+                    <a asp-action="Excluir" asp-route-id="@u.IdUsuario" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>   
+        }
+    </tbody>
+</table>
+
+@section Scripts
+{
+    <script src="/lib/bootstrap5/dist/js/bootstrap.min.js"></script>
+}
+
+@section LogoPagina
+{
+    <img src="/img/usuarios.png" height="24" class="d-inline-block align-text-bottom">
+}

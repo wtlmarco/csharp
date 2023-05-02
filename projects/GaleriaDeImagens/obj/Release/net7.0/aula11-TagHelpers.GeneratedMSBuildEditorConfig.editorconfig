@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = aula11_TagHelpers
+build_property.RootNamespace = aula11_TagHelpers
+build_property.ProjectDir = C:\servers\apache-php-8.2.4\htdocs\csharp\projects\GaleriaDeImagens\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\servers\apache-php-8.2.4\htdocs\csharp\projects\GaleriaDeImagens
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Galeria/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpYVxBbHRlcmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Galeria/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpYVxDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Galeria/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpYVxFeGNsdWlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Galeria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsZXJpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Home/Exemplos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeGVtcGxvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Imagem/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VtXEFsdGVyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Imagem/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VtXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Imagem/Efeitos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VtXEVmZWl0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Imagem/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VtXEV4Y2x1aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Imagem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/servers/apache-php-8.2.4/htdocs/csharp/projects/GaleriaDeImagens/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

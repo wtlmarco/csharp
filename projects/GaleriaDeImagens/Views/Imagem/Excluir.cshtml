@@ -1,0 +1,15 @@
+@model App.Models.Imagem
+@{
+    ViewBag.Titulo = "Exclusão de Imagem";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="@Model.IdImagem" name="id">
+    <div class="mt-3">
+        <h3>Tem certeza que deseja exlcuir a imagen <b>@Model.Titulo</b>?</h3>
+    </div>
+    <div class="mt-3">
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+        <button class="btn btn-danger" type="submit">Excluir</button>
+    </div>
+</form>

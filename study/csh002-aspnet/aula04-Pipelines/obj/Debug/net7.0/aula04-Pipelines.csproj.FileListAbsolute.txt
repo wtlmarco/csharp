@@ -1,0 +1,15 @@
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.csproj.AssemblyReference.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.GeneratedMSBuildEditorConfig.editorconfig
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.AssemblyInfoInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.AssemblyInfo.cs
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.csproj.CoreCompileInputs.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\bin\Debug\net7.0\aula04-Pipelines.exe
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\bin\Debug\net7.0\aula04-Pipelines.deps.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\bin\Debug\net7.0\aula04-Pipelines.runtimeconfig.json
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\bin\Debug\net7.0\aula04-Pipelines.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\bin\Debug\net7.0\aula04-Pipelines.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\refint\aula04-Pipelines.dll
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.pdb
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\aula04-Pipelines.genruntimeconfig.cache
+C:\servers\apache-php-8.2.4\htdocs\csharp\study\csh002-aspnet\aula04-Pipelines\obj\Debug\net7.0\ref\aula04-Pipelines.dll

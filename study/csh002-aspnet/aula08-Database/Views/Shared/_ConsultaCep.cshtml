@@ -1,0 +1,71 @@
+@* https://cdnjs.com/libraries/jquery *@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+@* https://viacep.com.br/exemplo/jquery *@
+<script type="text/javascript">
+    $(document).ready(function () {
+        function limpar_dados_cep() {
+            //Limpa valores do formuário de cep
+            $("#Logradouro").val('');
+            $("#Bairro").val('');
+            $("#Cidade").val('');
+            $("#Estado").val('');
+            $("#endereco").text('Digite um CEP válido e aguarde');
+
+            //Mostra o ícone válido
+            $("#cep_none").removeClass("d-none");
+            $("#cep_loading").addClass("d-none");
+            $("#cep_checked").addClass("d-none");
+        }
+
+        function consultar_cep()
+        {
+            var cep = $("#CEP").val().replace(/\D/g,'');
+            if(cep != "")
+            {
+                var validacep = /^[0-9]{8}$/;
+                
+                if(validacep.test(cep))
+                {         
+                               
+                    $("#cep_none").addClass("d-none");
+                    $("#cep_loading").removeClass("d-none");
+                    $("#cep_checked").addClass("d-none");
+                    
+                    $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function (dados)
+                    {
+                        $("#cep_none").addClass("d-none");
+                        $("#cep_loading").addClass("d-none");
+                        $("#cep_checked").removeClass("d-none");
+                        
+                        if(!("erro" in dados)) {
+                            $("#Logradouro").val(dados.logradouro);
+                            $("#Bairro").val(dados.bairro);
+                            $("#Cidade").val(dados.localidade);
+                            $("#Estado").val(dados.uf);
+                            $("#endereco").text(dados.logradouro + ", " + dados.bairro + ", " + dados.localidade + ", " + dados.uf + ".");
+                        }
+                        else
+                        {
+                            limpar_dados_cep();
+                            $("#endereco").text("Este CEP não foi encontrado.");
+                        }
+                    });
+                }
+                else
+                {
+                    limpar_dados_cep();
+                    $("#endereco").text("Este CEP não é válido.");
+                }
+            }
+            else
+            {
+                limpar_dados_cep();
+                $("#endereco").text("Digite um CEP válido e aguarde.");
+            }
+        }
+
+        $("#CEP").blur(consultar_cep);
+        consultar_cep();
+    });
+</script>

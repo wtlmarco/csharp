@@ -1,0 +1,25 @@
+﻿@model int?
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Index</title>
+</head>
+<body>
+    <h1>Pagina Index</h1>
+    @if(Model.HasValue)
+    {
+        <p>Parâmetro Igual a @Model.Value</p>
+    }
+    else
+    {
+        <p>Nenhum parâmetro foi passado.</p>
+    }
+</body>
+</html>
