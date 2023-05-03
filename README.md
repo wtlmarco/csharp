@@ -56,7 +56,7 @@
     <sup>Framework .NET 7, iTextSharp </sup>
   </li>
   <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/GaleriaDeImagens">ASP.NET - Galeria de Imagens</a>:triangular_flag_on_post:
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/GaleriaDeImagens">ASP.NET - Galeria de Imagens com Edição</a>:triangular_flag_on_post:
     <br>
     <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite, ImageSharp, Lightbox, Bootstrap 5 </sup>
   </li>
