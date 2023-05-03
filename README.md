@@ -49,7 +49,24 @@
 <h3>
   <a name="readme-components">Componentes</a>
 </h3>
- :compass: Planejado  :compass:
+<ul>
+  <li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/components/GeradorDeRelatorioEmPDF">Console - Gerador de Relatório em PDF</a>:triangular_flag_on_post:
+    <br>
+    <sup>Framework .NET 7, iTextSharp </sup>
+  </li>
+  <li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/GaleriaDeImagens">ASP.NET - Galeria de Imagens</a>:triangular_flag_on_post:
+    <br>
+    <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite, ImageSharp, Lightbox, Bootstrap 5 </sup>
+  </li>
+  <li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ServidorHttpSimples">Console - Servidor Htttp Simples com Framework Básico próprio</a>
+    :triangular_flag_on_post:
+    <br>
+    <sup>Framework .NET 7</sup>
+  </li>
+</ul>
 
 <p align="right">(<a href="#readme-top">topo</a>)</p>
 
@@ -58,12 +75,6 @@
   <a name="readme-projects">Projetos</a>
 </h3>
 <ul>
-<li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/GaleriaDeImagens">ASP.NET - Galeria de Imagens</a>:triangular_flag_on_post:
-    <br>
-    <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite, ImageSharp, Lightbox, Bootstrap 5 </sup>
-  </li>
-
   <li>
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ControleDeEstoque">ASP.NET - Controle de Estoque</a>:triangular_flag_on_post:
     <br>
@@ -71,12 +82,6 @@
   </li>
   <li>
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">Windows Forms - Jogo Arena de Batalha</a>:triangular_flag_on_post:
-    <br>
-    <sup>Framework .NET 7</sup>
-  </li>
-  <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ServidorHttpSimples">Console App - Servidor Htttp Simples com Framework Básico próprio</a>
-    :triangular_flag_on_post:
     <br>
     <sup>Framework .NET 7</sup>
   </li>
