@@ -33,8 +33,8 @@
     :triangular_flag_on_post:
   </li>
   <li>
-    <a href="#">ASP.NET</a>
-   :construction: Em preparação  :construction:
+    <a href="https://github.com/wtlmarco/csharp/tree/main/study/csh002-aspnet">ASP.NET</a>
+    :triangular_flag_on_post:
   </li>
   
   <li>
@@ -58,6 +58,12 @@
   <a name="readme-projects">Projetos</a>
 </h3>
 <ul>
+<li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/GaleriaDeImagens">ASP.NET - Galeria de Imagens</a>:triangular_flag_on_post:
+    <br>
+    <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite, ImageSharp, Lightbox, Bootstrap 5 </sup>
+  </li>
+
   <li>
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ControleDeEstoque">ASP.NET - Controle de Estoque</a>:triangular_flag_on_post:
     <br>
