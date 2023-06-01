@@ -33,10 +33,13 @@
     :triangular_flag_on_post:
   </li>
   <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/study/csh002-aspnet">ASP.NET</a>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/study/csh002-aspnet">ASP.NET WEB</a>
     :triangular_flag_on_post:
   </li>
-  
+  <li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/study/csh002-api">ASP.NET API</a>
+    :hammer_and_wrench: Executando  :hammer_and_wrench:
+  </li>
   <li>
     <a href="#">Windows Forms</a>
    :compass: Planejado  :compass:
@@ -76,7 +79,7 @@
 </h3>
 <ul>
   <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ControleDeEstoque">ASP.NET - Controle de Estoque</a>:triangular_flag_on_post:
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ControleDeEstoque">ASP.NET WEB - Controle de Estoque</a>:triangular_flag_on_post:
     <br>
     <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite e Bootstrap 5</sup>
   </li>
@@ -84,6 +87,11 @@
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">Windows Forms - Jogo Arena de Batalha</a>:triangular_flag_on_post:
     <br>
     <sup>Framework .NET 7</sup>
+  </li>
+  <li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/CadastroDePacientes">ASP.NET API - Controle de Pacientes</a>:triangular_flag_on_post:
+    <br>
+    <sup>Framework .NET 7, ASP.NET API, Angular 16, Entity com SqlServer e Bootstrap 5</sup>
   </li>
  </ul>
  
