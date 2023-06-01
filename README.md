@@ -79,6 +79,11 @@
 </h3>
 <ul>
   <li>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/CadastroDePacientes">ASP.NET API - Controle de Pacientes</a>:triangular_flag_on_post:
+    <br>
+    <sup>Framework .NET 7, ASP.NET API, Angular 16, Entity com SqlServer e Bootstrap 5</sup>
+  </li>
+  <li>
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ControleDeEstoque">ASP.NET WEB - Controle de Estoque</a>:triangular_flag_on_post:
     <br>
     <sup>Framework .NET 7, ASP.NET MVC, Entity com Sqlite e Bootstrap 5</sup>
@@ -87,11 +92,6 @@
     <a href="https://github.com/wtlmarco/csharp/tree/main/projects/ArenaDeBatalha">Windows Forms - Jogo Arena de Batalha</a>:triangular_flag_on_post:
     <br>
     <sup>Framework .NET 7</sup>
-  </li>
-  <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/projects/CadastroDePacientes">ASP.NET API - Controle de Pacientes</a>:triangular_flag_on_post:
-    <br>
-    <sup>Framework .NET 7, ASP.NET API, Angular 16, Entity com SqlServer e Bootstrap 5</sup>
   </li>
  </ul>
  
