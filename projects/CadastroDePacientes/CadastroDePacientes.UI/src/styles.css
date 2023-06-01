@@ -1,0 +1,11 @@
+.tabela-pacientes tr > th:last-child,
+.tabela-pacientes tr > td:last-child,
+
+.tabela-convenios tr > th:last-child,
+.tabela-convenios tr > td:last-child
+{
+    width:1%;
+    white-space: nowrap;
+    text-align: center;
+}
+

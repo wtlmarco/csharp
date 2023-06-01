@@ -1,0 +1,23 @@
+<header>
+    <h1 class="text-primary">Atualizar Convênio</h1>
+</header>
+<hr>
+<div class="alert alert-warning mt-3 alert-dismissible fade show" role="alert"
+*ngIf="mensagens.length > 0">
+    {{ mensagens | json }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+</div>
+
+<form class="row" #form="ngForm" (ngSubmit)="atualizar()">
+    <input type="hidden" [(ngModel)] = "convenio.id">
+    <div class="form-group col-sm-8 col-lg-4">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" class="form-control" 
+        [(ngModel)] = "convenio.nome" autofocus>
+    </div>
+    <div class="mt-3">
+        <a class="btn btn-outline-secondary" routerLink="../../">Cancelar</a>
+        &nbsp;
+        <button class="btn btn-primary" type="submit">Atualizar</button>
+    </div>
+</form>

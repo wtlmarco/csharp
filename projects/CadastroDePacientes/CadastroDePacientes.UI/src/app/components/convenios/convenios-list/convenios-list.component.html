@@ -1,0 +1,35 @@
+<header class="d-flex justify-content-between align-items-center">
+    <div>
+        <h1 class="text-primary">Convênios</h1>
+    </div>
+    <div>
+        <a class="btn btn-primary" title="Adicionar Convênio" 
+        routerLink="adicionar">Adicionar Convênio</a>
+    </div>
+</header>
+<hr>
+<table class="table table-striped tabela-convenios" *ngIf="convenios && convenios.length > 0">
+    <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let convenio of convenios">
+            <td>{{ convenio.nome }}</td>
+            <td>
+                <a class="btn btn-sm btn-secondary" 
+                [routerLink]="['/convenios', 'atualizar', convenio.id ]">
+                    <i class="bi-pencil" title="Alterar Convênio"></i>
+                </a>
+                &nbsp;
+                <a class="btn btn-sm btn-danger" 
+                [routerLink]="['/convenios', 'remover', convenio.id ]">
+                    <i class="bi-trash" title="Excluir Convênio"></i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p *ngIf="!convenios || convenios.length == 0">Não há nenhum convenio cadastrado.</p>

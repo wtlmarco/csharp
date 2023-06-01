@@ -1,0 +1,44 @@
+<header class="d-flex justify-content-between align-items-center">
+    <div>
+        <h1 class="text-primary">Pacientes</h1>
+    </div>
+    <div>
+        <a class="btn btn-primary" title="Adicionar Paciente"
+        routerLink="adicionar">Adicionar Paciente</a>
+    </div>
+</header>
+<hr>
+<table class="table table-striped tabela-pacientes" *ngIf="pacientes && pacientes.length > 0">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Email</th>
+            <th>Celular</th>
+            <th>TelefoneFixo</th>
+            <th>Convenio</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let paciente of pacientes">
+            <td>{{ paciente.nome }} {{ paciente.sobrenome }}</td>
+            <td *ngIf="paciente.cpf">{{ paciente.cpf | imask:cpfMask }}</td>
+            <td *ngIf="!paciente.cpf"></td>
+            <td>{{ paciente.email }}</td>
+            <td *ngIf="paciente.celular">{{ paciente.celular | imask:celphoneMask }}</td>
+            <td *ngIf="!paciente.celular"></td>
+            <td *ngIf="paciente.telefoneFixo">{{ paciente.telefoneFixo | imask:phoneMask }}</td>
+            <td *ngIf="!paciente.telefoneFixo"></td>
+            <td *ngIf="paciente.convenio">{{ paciente.convenio.nome }}</td>
+            <td *ngIf="!paciente.convenio"></td>
+            <td>
+                <a class="btn btn-sm btn-secondary"
+                [routerLink]="['/pacientes', 'atualizar', paciente.id ]">
+                    <i class="bi-pencil" title="Alterar Paciente"></i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p *ngIf="!pacientes || pacientes.length == 0">Não há nenhum paciente cadastrado.</p>

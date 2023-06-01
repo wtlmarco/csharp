@@ -1,0 +1,26 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-hospital-fill" style="font-size: 2rem;" title="Cadastro de Pacientes"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" routerLink="">Principal</a>
+            <a class="nav-link" routerLink="pacientes">Pacientes</a>
+            <a class="nav-link" routerLink="convenios">Convênios</a>
+        </div>
+        </div>
+    </div>
+  </nav>
+</header>
+<main class="container mt-2" style="min-height:450px;">
+  <router-outlet></router-outlet>
+</main>
+<footer class="text-light bg-dark p-3 mt-3 text-center">
+  Controle de Pacientes&copy; {{ hoje }}<br>
+  Todos os direitos reservados
+</footer>
