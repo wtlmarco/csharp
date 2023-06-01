@@ -37,7 +37,7 @@
     :triangular_flag_on_post:
   </li>
   <li>
-    <a href="https://github.com/wtlmarco/csharp/tree/main/study/csh002-api">ASP.NET API</a>
+    <a href="https://github.com/wtlmarco/csharp/tree/main/study/csh03-api">ASP.NET API</a>
     :hammer_and_wrench: Executando  :hammer_and_wrench:
   </li>
   <li>
