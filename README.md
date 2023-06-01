@@ -102,6 +102,6 @@
 </h3>
 Entre em contato: <a href="mailto:developer@wtlmarco.com" target="_blank">developer@wtlmarco.com</a>
 
-[<img src = "https://img.shields.io/badge/wtlmarco.com-gray.svg?&style=for-the-badge&logoColor=white">](https://www.wtlmarco.com) [<img src = "https://img.shields.io/badge/github-black.svg?&style=for-the-badge&logo=github&logoColor=white">](https://github.com/wtlmarco) [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/marco-antonio-amaral-santos-b5b3b3199) [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/wtlmarcosd/) 
+[<img src = "https://img.shields.io/badge/wtlmarco.com-gray.svg?&style=for-the-badge&logoColor=white">](https://www.wtlmarco.com) [<img src = "https://img.shields.io/badge/github-black.svg?&style=for-the-badge&logo=github&logoColor=white">](https://github.com/wtlmarco) [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/wtlmarco) [<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/wtlmarcosd/) 
 
 <p align="right">(<a href="#readme-top">topo</a>)</p>
