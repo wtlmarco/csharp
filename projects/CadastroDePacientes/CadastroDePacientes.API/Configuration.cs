@@ -26,7 +26,7 @@ internal static class Configuration
         services.AddSwaggerGen();
 
         services.AddDbContext<IApplicationDbContext, SqlServerDbContext>(options =>
-    options.UseSqlServer(configuration.GetConnectionString("Default")));
+    options.UseSqlServer(configuration.GetConnectionString("Integrated")));
 
         LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
         services.AddSingleton<ILoggerManager, LoggerManager>();
