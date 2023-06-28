@@ -1,4 +1,6 @@
-﻿namespace CloudWeather.Report.DataAccess;
+﻿using System;
+
+namespace CloudWeather.Report.DataAccess;
 
 public class WeatherReport
 {

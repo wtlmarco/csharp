@@ -1,6 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.InteropServices;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Http;
 
 using CloudWeather.Report.DataAccess;
 using CloudWeather.Report.BusinessLogic;

@@ -1,9 +1,16 @@
-﻿using Microsoft.Extensions.Options;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Extensions.Options;
+using System.Text.Json;
+using System.Threading.Tasks;
+using System.Net.Http;
+using Microsoft.Extensions.Logging;
 
 using CloudWeather.Report.DataAccess;
 using CloudWeather.Report.Config;
 using CloudWeather.Report.Models;
-using System.Text.Json;
+using System.Net.Http.Json;
 
 namespace CloudWeather.Report.BusinessLogic;
 
