@@ -1,0 +1,178 @@
+STATUS DIARIO PROJETO Site - SoulSurf
+Início: [29/07~
+
+BLOCKS
+--------------------
+
+DOING
+-------------------
+
+DONE 
+--------------------
+1.1) Criar a estrutura do projeto
+1.2) Integrar com o Git
+1.3) Configurar o Logging
+
+TO DO
+--------------------
+1.3) Configurar Layout Base
+1.4) Configurar Envio de Mensagem na Tela
+1.5) Configurar Internacionalização
+1.6) Configurar Tratamento de Exceção
+
+CHANGES
+--------------------
+
+RISKS
+--------------------
+
+SPRINT BACKLOG
+--------------------
+1) [29/07~] Arquitetura do Sistema
+1.1) 
+
+2) [] Telas do Site
+2.1) [] Home Page
+
+********************
+
+PRODUCT BACKLOG
+--------------------
+
+DONE HISTORY
+--------------------
+
+HISTORICAL RISKS
+--------------------
+
+********************
+RASCUNHO DAS TAREFAS
+(*) Dependendo da quantidade de Telas/Funções
+
+Portal-Front/Funcionalidades (*)
+1) Definir fluxos da Tela
+2) Construir Tela
+3) Integrar chamada com API do Back
+4) Aplicar validação de Campos
+5) Tratar retornos da API do Back
+6) Instrumentar Logs
+6) Testes: Validar Fluxos da Telas
+7) Testes: Realizar testes integrados
+
+Portal-Back/Configurações
+1) Configurar camada de chamada a API
+2) Configurar Autenticação/Autorização
+3) Construir base de template de telas
+4) Construir componentes de telas comuns
+5) Construir biblioteca de estilos
+6) Construir base de mensagens/textos
+
+Portal-Back/Configurações
+1) Configurar o Swagger
+2) Configurar o Logging
+3) Configurar o Token
+
+Portal-Back/Funcionalidades (*) 
+1) Construir camada de Controller
+2) Construir a camada de Domain
+3) Construir camada de Serviço
+	3.1) Aplicar validação de Dados de entrada
+	3.2) Instrumentar Logs
+	3.3) Testes: Realizar testes Funcionais
+4) Integração com API Connect
+	4.1) Construir a camada de Command
+	4.2) Construir chamada para API
+	4.2) Instrumentar Logs
+	4.3) Testes: Realizar testes de integração
+5) Construir camada de Integração com Authentication
+	5.?) ???
+
+Connect/Configurações
+1) Configurar o Swagger
+2) Configurar o Logging
+3) Configurar o Token
+
+Connect/Integração
+1) Construir a VIEW de integração com o TASY
+2) Construir entidades de controles do Connect na base de dados
+
+Connect/Funcionalidades (*)
+1) Construir a camada de Domain
+2) Construir a PROCEDURE
+3) Construir a camada de Repositório
+4) Construir a camada de Serviço
+5) Construir a camada de Command
+6) Construir a camada de Controller
+7) Instrumentar Logs TRACE/DEBUG
+8) Testes: Realizar testes de integração
+
+ENTENDIMENTO
+--------------------
+1) Quais são as Responsabilidades esperadas por cada camada (Validação dos Formulários, Logging, Tratamento de Exceção, Autenticação/Autorização,Validação de Regras de Negócio...)
+	a) Do Painel Front?
+	b) Do Painel Back?
+	c) Do Integration?
+	d) Do Connect?
+
+2) Connect
+	a) Terá a função de expor EndPoints somente para Painel Back?
+	b) Terá a única função de expor as PROCS que integram com a Base do Cliente ou deverá fazer alguma transformação/armazenagem de dados como ocorrer no HCOR?
+	c) As informações que o Painel necessitará do Connect também serão, em algum momento, utilizadas pelo Fast Checkin?
+
+3) O Painel necessitará de dados do FastCheckin? 
+
+4) O Acesso a base de Authentication, ConfirmaSMS será feita por qual Componente?
+	
+5) Ambas as estruturas Painel e FastCheckin ficam no domínio do cliente?
+
+6) No desenho Infraestrutura de Servidores?
+	a) API Proxy é o Integration?
+	b) Barramento é o Connect?
+	c) Dos elementos dentro da Rede interna qual deles acessam o TASY diretamente?
+	d) Toda essa rede é interna no AC Camargo, na Be3 ou em ambos?
+
+Telas:
+1-[Painel] Módulo check-in - tela de configuração de totens
+- Insert
+- Update
+
+2-[Painel] Módulo check-in - tela de configuração de ambulatórios
+- Update
+- Insert
+
+3-[Painel] Módulo check-in - tela de configuração de filas por totem
+- Lista Totem por Fila
+- Insert
+- Delete
+
+4-[Painel] Módulo check-in - tela de configuração de filas por setor
+- Insert
+- Update
+- View Setor
+- Select Lista Setor
+- Select Lista Fila
+
+5-[Painel] Módulo check-in - tela de configuração de classificação por especialidade
+- View Classificação
+- Select Lista Classificação
+- Select Lista Especialidade
+- Insert
+- Delete
+
+6-[Painel] Módulo check-in - tela de configuração de parâmetros do check-in
+- Insert
+- Update
+- Delete
+- Listar
+
+7-[Painel] Integração Configuração de totens
+
+Dúvida sobre as telas que vc me passou pelos títulos preciso antes entender os seguintes pontos:
+1) Todos os parâmetros de configuração atualmente estão armazenados na base de dados da Aplicação ou no Tasy
+2) As configurações possivelmente devem ter valores default e não permitir parâmetros nulos, essa checagem é responsabilidade do Painel Back ou do Connect?
+3) Deve-se guardar um histórico da parametrização?
+4) Os dados de domínio desses parâmetros são próprios da aplicação
+
+ACESSOS
+--------------------
+https://citrixnovo.accamargo.org.br/

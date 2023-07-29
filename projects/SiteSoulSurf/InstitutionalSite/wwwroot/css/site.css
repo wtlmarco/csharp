@@ -1,5 +1,16 @@
-html {
-  font-size: 14px;
+:root {
+    --palette-primary: #3FA9F5;
+    --palette-primary-variant: #004CA3;
+    --palette-complementary: #F58B3F;
+    --palette-complementary-variant: #FFDC58;
+    --palette-triadic: #8A0064;
+    --palette-background: #FFFFFF;
+    --palette-text: #000000;
+    --palette-text-variant: #FFFFFF;
+    --palette-text-error: #BB0000;
+    --font-text-size: 14px;
+
+    --bs-body-color: var(--palette-text);
 }
 
 @media (min-width: 768px) {
@@ -13,10 +24,46 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-width: 1440px;
+    min-height: 100%;
+    font-size: var(--font-text-size);
 }
 
 body {
-  margin-bottom: 60px;
+    
+}
+
+section {
+    height: 500px;
+}
+
+header {
+    width: 100%;
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    background-color: var(--palette-primary-variant);
+    color: var(--palette-text-variant);
+    font-size: 1rem;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    background-color: var(--palette-background);
+    color: var(--palette-primary);
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--palette-primary);
+}
+
+footer {
+    width: 100%;
+    height: 480px;
+    background-color: var(--palette-primary-variant);
+    color: var(--palette-text-variant);
+    padding: 10px 20px 10px 20px;
 }
