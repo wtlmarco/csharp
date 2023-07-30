@@ -14,15 +14,23 @@
     <header>
         <div class="d-flex flex-row justify-content-between">
             <div class="d-flex flex-row">
-                <div>Siga-nos</div>
-                <div class="ms-2"><i class="bi-envelope"></i></div>
-                <div class="ms-2"><i class="bi-instagram"></i></div>
-                <div class="ms-2"><i class="bi-linkedin"></i></div>
-                <div class="ms-2"><i class="bi-facebook"></i></div>
+                <div>
+                    Siga-nos
+                </div>
+                <div class="separator"></div>
+                <div class="ms-2"><a href="#"><i class="bi-envelope"></i></a></div>
+                <div class="separator"></div>
+                <div class="ms-2"><a href="#"><i class="bi-instagram"></i></a></div>
+                <div class="separator"></div>
+                <div class="ms-2"><a href="#"><i class="bi-linkedin"></i></a></div>
+                <div class="separator"></div>
+                <div class="ms-2"><a href="#"><i class="bi-facebook"></i></a></div>
             </div>
             <div class="d-flex flex-row">
                 <div><i class="bi-telephone"></i> (99)9999-9999</div>
+                <div class="separator"></div>
                 <div class="ms-2"><i class="bi-geo-alt"></i> Lorem ipsum dolor sit amet, 999</div>
+                <div class="separator"></div>
                 <div class="ms-2"><i class="bi-globe"></i> Português</div>
             </div>
         </div>
@@ -30,19 +38,39 @@
     
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container">
-            <a class="navbar-brand" asp-area="" asp-page="/Index">Soul Surf</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="~/img/logo-azul.png" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Sobre</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Transparência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Contato</a>
+                    </li>
+                    <form class="d-flex">
+                        <button class="btn btn-warning" type="submit"><i class="bi-envelope-paper-heart"></i> Doe Agora</button>
+                    </form>
                 </ul>
             </div>
         </div>
@@ -56,7 +84,105 @@
     
     <footer>
         <div class="container">
-            &copy; 2023 - InstitutionalSite - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <div class="row">
+                <div class="col">
+                    <div class="text-center"><img src="~/img/logo-branco.png" /></div>
+                    <div class="text-center">
+                        Somos uma organização da sociedade civil sem fins econômicos proveniente da antiga entidade denominada Projeto Social Surf Cibra. (2011-2021).
+                        <br />
+                        Mantemos o compromisso social e ambiental, acolhendo crianças em situações vulneráveis, a fim de desenvolver suas capacidades físicas, proporcionando saúde e bem-estar, além de valores morais e éticos.
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center"><h2>Menu</h2></div>
+                    <div class="text-center">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projetos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notícias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Transparência</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Parceiros</a>
+                            </li>
+                        </ul>   
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center"><h2>Contatos</h2></div>
+                    <div class="text-left">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-telephone"></i> 
+                                    (99) 9999-9999
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-envelope"></i>
+                                    contato@projetosoulsurf.org
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-geo-alt"></i> 
+                                    Lorem ipsum dolor sit amet, 999
+                                 </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center"><h2>Mensagem</h2></div>
+                    <div class="text-center">
+                        <form>
+                            <div class="mb-3">
+                                <input class="form-control" type="text" placeholder="Nome">
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" type="text" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="" placeholder="Mensagem" rows="3"></textarea>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-warning"><i class="bi-send"></i> Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                &copy; 2023 - Projeto SoulSurf - <a asp-area="" asp-page="/Privacy">Privacy</a>
+                </div>
+            </div>
         </div>
     </footer>
 

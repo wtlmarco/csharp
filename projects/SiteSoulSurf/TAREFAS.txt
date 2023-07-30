@@ -7,18 +7,12 @@ BLOCKS
 DOING
 -------------------
 
-DONE 
---------------------
-1.1) Criar a estrutura do projeto
-1.2) Integrar com o Git
-1.3) Configurar o Logging
-
 TO DO
 --------------------
-1.3) Configurar Layout Base
-1.4) Configurar Envio de Mensagem na Tela
-1.5) Configurar Internacionalização
-1.6) Configurar Tratamento de Exceção
+1.*) Aplicar responsividade do Layout Base
+1.*) Configurar Envio de Mensagem na Tela
+1.*) Configurar Internacionalização
+1.*) Configurar Tratamento de Exceção
 
 CHANGES
 --------------------
@@ -28,11 +22,16 @@ RISKS
 
 SPRINT BACKLOG
 --------------------
-1) [29/07~] Arquitetura do Sistema
-1.1) 
-
 2) [] Telas do Site
 2.1) [] Home Page
+
+DONE 
+--------------------
+1) [29/07~] Arquitetura do Sistema
+1.1) Criar a estrutura do projeto
+1.2) Integrar com o Git
+1.3) Configurar o Logging
+1.4) Criar Layout Base
 
 ********************
 
