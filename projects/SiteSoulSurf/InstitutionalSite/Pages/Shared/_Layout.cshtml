@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="~/InstitutionalSite.styles.css" asp-append-version="true" />
 </head>
 <body>
+
     <header>
-        <div class="d-flex flex-row justify-content-between">
+        <div class="d-flex flex-column flex-md-row justify-content-md-between">
             <div class="d-flex flex-row">
                 <div>
                     Siga-nos
@@ -26,24 +27,24 @@
                 <div class="separator"></div>
                 <div class="ms-2"><a href="#"><i class="bi-facebook"></i></a></div>
             </div>
-            <div class="d-flex flex-row">
-                <div><i class="bi-telephone"></i> (99)9999-9999</div>
-                <div class="separator"></div>
-                <div class="ms-2"><i class="bi-geo-alt"></i> Lorem ipsum dolor sit amet, 999</div>
-                <div class="separator"></div>
-                <div class="ms-2"><i class="bi-globe"></i> Português</div>
+            <div class="d-flex flex-column flex-md-row">
+                <div class ="ms-0"><a href="#"><i class="bi-telephone"></i> (99)9999-9999</a></div>
+                <div class="d-none d-md-block separator"></div>
+                <div class="ms-md-2"><a href="#"><i class="bi-geo-alt"></i> Lorem ipsum dolor sit amet, 999</a></div>
+                <div class="d-none d-md-block separator"></div>
+                    <div class="ms-md-2"><a href="#"><i class="bi-globe"></i> Português</a></div>
             </div>
         </div>
     </header>
     
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <nav class="navbar navbar-expand-md navbar-toggleable-md navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container">
             <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="~/img/logo-azul.png" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav ms-auto">
+            <div class="navbar-collapse collapse d-md-inline-flex justify-content-between">
+                <ul class="navbar-nav ms-auto my-auto">
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
                     </li>
@@ -68,8 +69,8 @@
                     <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Privacy">Contato</a>
                     </li>
-                    <form class="d-flex">
-                        <button class="btn btn-warning" type="submit"><i class="bi-envelope-paper-heart"></i> Doe Agora</button>
+                    <form class="d-flex ms-4">
+                        <button class="btn btn-warning" type="submit"><i class="bi-envelope-paper-heart"></i><span class="d-none d-lg-inline"> Doe Agora</span></button>
                     </form>
                 </ul>
             </div>
@@ -85,7 +86,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col col-sm-12 col-lg-4">
                     <div class="text-center"><img src="~/img/logo-branco.png" /></div>
                     <div class="text-center">
                         Somos uma organização da sociedade civil sem fins econômicos proveniente da antiga entidade denominada Projeto Social Surf Cibra. (2011-2021).
@@ -93,7 +94,8 @@
                         Mantemos o compromisso social e ambiental, acolhendo crianças em situações vulneráveis, a fim de desenvolver suas capacidades físicas, proporcionando saúde e bem-estar, além de valores morais e éticos.
                     </div>
                 </div>
-                <div class="col">
+                <div class="mb-5 d-lg-none"></div>
+                <div class="col col-sm-6 col-lg-2">
                     <div class="text-center"><h2>Menu</h2></div>
                     <div class="text-center">
                         <ul class="nav flex-column">
@@ -121,7 +123,8 @@
                         </ul>   
                     </div>
                 </div>
-                <div class="col">
+                <div class="mb-5 d-sm-none"></div>
+                <div class="col col-sm-6 col-lg-3">
                     <div class="text-center"><h2>Contatos</h2></div>
                     <div class="text-left">
                         <ul class="nav flex-column">
@@ -158,7 +161,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col">
+                <div class="mb-5 d-lg-none"></div>
+                <div class="col col-sm-12 col-lg-3">
                     <div class="text-center"><h2>Mensagem</h2></div>
                     <div class="text-center">
                         <form>
@@ -178,7 +182,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
+            <div class="mb-5"></div>
+            <div class="row">
                 <div class="col text-center">
                 &copy; 2023 - Projeto SoulSurf - <a asp-area="" asp-page="/Privacy">Privacy</a>
                 </div>

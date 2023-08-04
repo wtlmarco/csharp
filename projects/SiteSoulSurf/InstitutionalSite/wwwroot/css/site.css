@@ -8,16 +8,38 @@
     --palette-text: #000000;
     --palette-text-variant: #FFFFFF;
     --palette-text-error: #BB0000;
-    --font-text-size: 14px;
     --bs-body-color: var(--palette-text);
-    --site-width: 1440px;
     --font-default: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 14px;
+    }
+
+    nav .nav-item {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
+    nav .nav-item {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    nav .nav-item {
+        font-size: 24px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -25,10 +47,7 @@
 }
 
 html {
-    position: relative;
-    min-width: var(--site-width);
     min-height: 100%;
-    font-size: var(--font-text-size);
     font-family: var(--font-default);
 }
 
@@ -69,6 +88,11 @@ nav {
     color: var(--palette-primary);
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--palette-complementary);
+    border-top: 2px solid var(--palette-complementary);
+}
+
 footer {
     width: 100%;
     background-color: var(--palette-primary-variant);
@@ -76,8 +100,9 @@ footer {
     padding: 10px 20px 10px 20px;
 }
 
-footer .nav-link, a {
+footer .nav-link, footer a, header a {
     color: var(--palette-text-variant);
+    text-decoration:none;
 }
 
 footer a.active {
