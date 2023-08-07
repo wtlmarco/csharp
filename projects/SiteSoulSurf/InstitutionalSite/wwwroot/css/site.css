@@ -56,7 +56,7 @@ body {
 }
 
 section {
-    height: 500px;
+    min-height: 500px;
 }
 
 header {
@@ -113,4 +113,8 @@ header a:hover,
 footer .nav-link:hover,
 footer a:hover {
     color: var(--palette-complementary);
+}
+
+h1{
+    color: var(--palette-primary-variant);
 }
