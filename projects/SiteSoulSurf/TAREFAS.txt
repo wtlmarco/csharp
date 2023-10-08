@@ -9,10 +9,9 @@ DOING
 
 TO DO
 --------------------
-1.*) Aplicar responsividade do Layout Base
-1.*) Configurar Envio de Mensagem na Tela
-1.*) Configurar Internacionalização
+1.*) Adicionar componente de Mensagem na Tela
 1.*) Configurar Tratamento de Exceção
+1.*) Configurar Internacionalização
 
 CHANGES
 --------------------
@@ -32,6 +31,7 @@ DONE
 1.2) Integrar com o Git
 1.3) Configurar o Logging
 1.4) Criar Layout Base
+1.5) Aplicar responsividade do Layout Base
 
 ********************
 

@@ -3,93 +3,289 @@
 @{
     ViewData["Title"] = "Soul Surf - Home page";
 }
-
-<style>
-    .home{
-      background-color: green;
-      max-width: 1440px;  
-    }
-    .home-banner,.carousel-inner{
-        width: 100%;
-        height: 100%;
-    }
-    .carousel img{
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .carousel-caption{
-        top:0%;
-        left:0%;
-    }
-</style>
-
 <div class="home text-center">
     <div class="home-banner">
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item carousel-item-1 active">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                    <img src="img/home/banner-1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/home/banner-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h2>Uma ferramenta para introduzir mudanças</h2>
+                        <h1>Aulas de Surf</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, accusamus exercitationem totam qui enim iste tempore laborum eos voluptas, dicta quod eius dolor ea ratione consequatur? Perferendis adipisci repellat voluptates?</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/home/banner-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item carousel-item-2">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h2>Uma ferramenta para introduzir mudanças</h2>
+                        <h1>Treinamento Funcional</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ipsum unde! Iusto nesciunt laudantium officia quam dolorem voluptas optio libero, at rem expedita ipsam fuga, ut animi impedit voluptatem adipisci!</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Uma ferramenta para introduzir mudanças</h2>
+                        <h1>Competições</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ipsum unde! Iusto nesciunt laudantium officia quam dolorem voluptas optio libero, at rem expedita ipsam fuga, ut animi impedit voluptatem adipisci!</p>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
-    <div class="home-mission">
-        <h1>Nossa Missão e Objetivos</h1>
-
+    <div class="home-mission container text-center">
+        <div class="row">
+            <div class="col">
+                <img src="img/home/mission.png" alt="Missão e Objetivos">
+            </div>
+            <div class="col">
+                <h1>Nossa Missão e Objetivos</h1>
+                <h2>Fortalecer a crença da superação e de que vencer o inesperado é possível.</h2>
+                <p>Nós promovemos a inclusão social de crianças e adolescentes em situação de vulnerabilidade física, emocional, afetiva, cognitiva ou social em projetos educacionais, esportivos, culturais e ambientais através do surf.</p>
+                    <div class="row">
+                        <div class="col">
+                            <div>ÍCONE</div>
+                            <div>RESPEITO</div>
+                        </div>
+                        <div class="col">
+                            <div>ÍCONE</div>
+                            <div>AUTOESTIMA</div>
+                        </div>
+                        <div class="col">
+                            <div>ÍCONE</div>
+                            <div>FRATERNIDADE</div>
+                        </div>
+                        <div class="col">
+                            <div>ÍCONE</div>
+                            <div>AUTOCONFIANÇA</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>ÍCONE</div>
+                            <div>SOLIDARIEDADE</div>
+                        </div>
+                        <div class="col">
+                            <div>ÍCONE</div>
+                            <div>FAMÍLIA</div>
+                        </div>
+                        <div class="col">
+                            <div>ÍCONE</div>
+                            <div>EMPATIA</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-warning" type="submit"><i class="bi-envelope-paper-heart"></i><span class="d-none d-lg-inline"> Conheça nossos projetos</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
     </div>
-    <div class="home-team">
-        <h1>Nosso Time</h1>
-    
     </div>
-    <div class="home-wall">
-        <h1>Mural</h1>
-
+    <div class="home-team container text-center">
+        <div class="row">
+            <div class="col">
+                <h1>Nosso Time</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="carouselTeam" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-theme="dark" data>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel-item-1 active">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-1.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-2.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-3.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item-2">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-4.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-1.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-2.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item-3">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-3.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-4.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="team-container">
+                                        <img src="img/home/profissional-1.png" alt="...">
+                                        <div class="team-container-info">
+                                            Paulo Roberto<br>
+                                            <b>Professor de Surf</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="home-testimonials">
-        <h1>Histórias de Impacto</h1>
-
+    <div class="home-wall container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1>Mural</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/home/mural-3.png" alt="..." class="img-fluid">
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col">
+                        <img src="img/home/mural-4.png" alt="..." class="img-fluid">
+                    </div>
+                    <div class="col">
+                        <img src="img/home/mural-5.png" alt="..." class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="img/home/mural-2.png" alt="..." class="img-fluid">
+            </div>
+            <div class="col-3">
+                <img src="img/home/mural-6.png" alt="..." class="img-fluid">
+                <div class="pt-3"></div>
+                <img src="img/home/mural-1.png" alt="..." class="img-fluid">
+            </div>
+        </div>
     </div>
-    <div class="home-events">
-        <h1>Últimas Notícias</h1>
-
+    <div class="home-testimonials container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1>Histórias de Impacto</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Lista de Profissionais
+            </div>
+        </div>
     </div>
-    <div class="home-statistics">
-        <h1>Próximos Eventos</h1>
-
+    <div class="home-news container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1>Últimas Notícias</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Lista de Profissionais
+            </div>
+        </div>
     </div>
-    <div class="home-statistics">
-        <h1>Faça parte da nossa História</h1>
-
+    <div class="home-events container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1>Próximos Eventos</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Lista de Profissionais
+            </div>
+        </div>
+    </div>
+    <div class="home-statistics container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1>Faça parte da nossa História</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                Lista de Profissionais
+            </div>
+        </div>
     </div>
 </div>
