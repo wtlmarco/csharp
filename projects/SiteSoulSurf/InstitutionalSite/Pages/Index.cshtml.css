@@ -65,6 +65,9 @@
 
 
 /*home-team*/
+#carouselTeam{
+    height: 500px;
+}
 #carouselTeam .team-container{
     position: relative;
 }
@@ -79,3 +82,8 @@
 }
 
 /*home-wall*/
+
+/*home-testiomonials*/
+#carouselTestimonials {
+    height: 450px;
+}
