@@ -2,9 +2,10 @@
     max-width: 1440px;  
 }
 
-.home-banner, .home-mission, .home-wall, .home-testimonials, .home-news, .home-events, .home-statistics {
+.home-banner, #home-mission, .home-wall, .home-testimonials, .home-news, .home-events, .home-statistics {
     margin: auto;
     width: 90%;
+    margin-top: 20px;
 }
 
 /*home-banner*/
@@ -62,7 +63,22 @@
 }
 
 /*home-mission*/
+#home-mission h1.title, h2.subtitle{
+    text-align: left;
+}
 
+#home-mission span.icon-title{
+    color: var(--palette-text);
+    font-size: 10px;
+}
+
+#home-mission span.icon-item{
+    font-size: 50px;
+}
+
+#home-mission img{
+    height: 80%;
+}
 
 /*home-team*/
 #carouselTeam{
