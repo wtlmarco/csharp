@@ -2,7 +2,7 @@
     max-width: 1440px;  
 }
 
-.home-banner, #home-mission, .home-wall, .home-testimonials, .home-news, .home-events, .home-statistics {
+#home-banner, #home-mission, #home-team, #home-wall, #home-testimonials, #home-news, .home-events, .home-statistics {
     margin: auto;
     width: 90%;
     margin-top: 20px;
@@ -63,7 +63,11 @@
 }
 
 /*home-mission*/
-#home-mission h1.title, h2.subtitle{
+#home-mission .img-fluid{
+    height: 450px;
+}
+
+#home-mission h1.title, h3.subtitle, p.info{
     text-align: left;
 }
 
@@ -82,15 +86,17 @@
 
 /*home-team*/
 #carouselTeam{
-    height: 500px;
+    height: 380px;
 }
+
 #carouselTeam .team-container{
     position: relative;
 }
+
 #carouselTeam .team-container-info{
     position: absolute;
-    top: 330px;
-    right: 38px;
+    top: 250px;
+    right: 0;
     z-index: 10;
     padding: 10px 30px 10px 30px;
     background: rgba(0,0,0,0.7);
@@ -100,6 +106,56 @@
 /*home-wall*/
 
 /*home-testiomonials*/
+#home-testimonials p, 
+#home-testimonials h2, 
+#home-testimonials h4, 
+#home-testimonials h5{
+    text-align: left;
+}
+
+#home-testimonials img.minor{
+    margin-top: 12.5%;
+    width: 80%;
+}
+
 #carouselTestimonials {
-    height: 450px;
+    height: 390px;
+}
+
+/*home-news*/
+#home-news h3{
+    text-align: center;
+}
+
+#home-news div.card-body{
+    text-align: left;
+}
+
+#home-news div.card{
+    position: relative;
+}
+
+#home-news div.card-date{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 10;
+    padding: 0 10px 10px 10px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+}
+
+#home-news span.card-date-day{
+    font-size: 2rem;
+}
+
+#home-news span.card-date-month{
+    position: absolute;
+    top:40px;
+    left:14px;
+    font-size: 0.6rem;
+}
+
+#home-news div.card-footer{
+    font-size: 10px;
 }
