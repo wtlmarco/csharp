@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>PerformanceTest.StringConcatBenchmark-20230810-091731</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.7, Windows 11 (10.0.22621.2134/22H2/2022Update/SunValley2)
+11th Gen Intel Core i5-1135G7 2.40GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK 7.0.306
+  [Host]     : .NET 7.0.9 (7.0.923.32018), X64 RyuJIT AVX2
+  DefaultJob : .NET 7.0.9 (7.0.923.32018), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>       Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Median</th><th>Gen0</th><th>Gen1</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>StringBuilderConcat</td><td>33.17 &mu;s</td><td>0.816 &mu;s</td><td>2.354 &mu;s</td><td>33.23 &mu;s</td><td>42.9688</td><td>5.3711</td><td>175.72 KB</td>
+</tr><tr><td>GenericListConcat</td><td>27.36 &mu;s</td><td>0.546 &mu;s</td><td>1.400 &mu;s</td><td>27.18 &mu;s</td><td>24.5972</td><td>-</td><td>100.53 KB</td>
+</tr><tr><td>SimpletConcat</td><td>205.77 &mu;s</td><td>11.311 &mu;s</td><td>30.964 &mu;s</td><td>195.64 &mu;s</td><td>688.4766</td><td>-</td><td>2812.09 KB</td>
+</tr></tbody></table>
+</body>
+</html>

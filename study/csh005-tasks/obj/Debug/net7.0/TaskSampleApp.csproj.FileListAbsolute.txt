@@ -1,0 +1,15 @@
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.csproj.AssemblyReference.cache
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.AssemblyInfoInputs.cache
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.AssemblyInfo.cs
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.csproj.CoreCompileInputs.cache
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\bin\Debug\net7.0\TaskSampleApp.exe
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\bin\Debug\net7.0\TaskSampleApp.deps.json
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\bin\Debug\net7.0\TaskSampleApp.runtimeconfig.json
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\bin\Debug\net7.0\TaskSampleApp.dll
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\bin\Debug\net7.0\TaskSampleApp.pdb
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.dll
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\refint\TaskSampleApp.dll
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.pdb
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\TaskSampleApp.genruntimeconfig.cache
+C:\Users\Marco Santos\OneDrive - be3 health tech\Documentos\Visual Studio 2022\TaskSampleApp\obj\Debug\net7.0\ref\TaskSampleApp.dll
