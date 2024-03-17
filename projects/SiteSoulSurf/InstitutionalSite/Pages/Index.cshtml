@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Soul Surf - Home page";
 }
-<div class="home text-center">
+<div class="home">
     <div id="home-banner">
         <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -117,7 +117,7 @@
                 <h1>Nosso Time</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col">
                 <div id="carouselTeam" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-theme="dark" data>
                     <div class="carousel-indicators">
@@ -177,7 +177,7 @@
                 <h1>Mural</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-6">
                 <div class="row">
                     <div class="col">
@@ -209,7 +209,7 @@
                 <h1>Histórias de Impacto</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-12">
                 <div id="carouselTestimonials" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-theme="dark" data>
                     <div class="carousel-indicators">
@@ -256,7 +256,7 @@
                 <h1>Últimas Notícias</h1>
             </div>
         </div>
-        <div class="row row-cols-3 g-2">
+        <div class="row row-cols-3 mt-3">
             <div class="col">
                 <div class="card">
                     <img class="card-img-top" src="img/home/news-1.png" alt="...">
@@ -322,91 +322,111 @@
             </div>
         </div>
     </div>
-    <div class="home-events container text-center">
+    <div id="home-events" class="container text-center">
         <div class="row">
             <div class="col-12">
                 <h1>Próximos Eventos</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-3">
-                <h3>Trufa Solidária</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</p>
-                <div><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
-            </div>
-            <div class="col-3">
+        <div class="row mt-3">
+            <div class="description col-3">
+                <div class="date">12 de Março de 2023</div>
+                <div class="title">Trufa Solidária</div>
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</div>
+                <div class="link"><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
+            </div> 
+            <div class="banner col-3">
                 <img src="img/home/events-2.png" alt="..." class="img-fluid">
             </div>
-            <div class="col-3">
-                <h3>Confraternização dos Alunos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</p>
-                <div><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
+            <div class="description mode-1 col-3">
+                <div class="date">12 de Março de 2023</div>
+                <div class="title">Confraternização dos Alunos</div>
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</div>
+                <div class="link"><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
             </div>
-            <div class="col-3">
+            <div class="banner col-3">
                 <img src="img/home/events-4.png" alt="..." class="img-fluid">
             </div>
         </div>
         <div class="row">
-            <div class="col-3">
+            <div class="banner col-3">
                 <img src="img/home/events-1.png" alt="..." class="img-fluid">
             </div>
-            <div class="col-3">
-                <h3>Curso de Previsão de Ondas</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</p>
-                <div><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
+            <div class="description mode-2 col-3">
+                <div class="date">12 de Março de 2023</div>
+                <div class="title">Curso de Previsão de Ondas</div>
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</div>
+                <div class="link"><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
             </div>
-            <div class="col-3">
+            <div class="banner col-3">
                 <img src="img/home/events-3.png" alt="..." class="img-fluid">
             </div>
-            <div class="col-3">
-                <h3>Campeonato Itanhaense de Surf</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</p>
-                <div><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
+            <div class="description col-3">
+                <div class="date">12 de Março de 2023</div>
+                <div class="title">Campeonato Itanhaense de Surf</div>
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est hic repudiandae facere voluptas molestiae alias. Eius laudantium quae modi ut corporis fuga suscipit distinctio incidunt totam consequuntur eaque, consectetur unde?</div>
+                <div class="link"><a href=""><i class="bi-envelope"></i> Saiba Mais</a></div>
             </div>
         </div>
     </div>
-    <div class="home-statistics container text-center">
+    <div id="home-statistics" class="container text-center">
         <div class="row">
             <div class="col-12">
                 <h1>Faça parte da nossa História</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4">
+        <div class="row mt-3">
+            <div class="col-3">
                 <h4>Instituiçoes Parceiras</h4>
-                <img src="img/home/partners-1.png" alt="...">
-                <img src="img/home/partners-2.png" alt="...">
-                <img src="img/home/partners-3.png" alt="...">
-                <img src="img/home/partners-4.png" alt="...">
+                <div class="patterns">
+                    <div class="patterns-item"><img src="img/home/partners-1.png" alt="..."></div>
+                    <div class="patterns-item"><img src="img/home/partners-2.png" alt="..."></div>
+                    <div class="patterns-item"><img src="img/home/partners-3.png" alt="..."></div>
+                    <div class="patterns-item"><img src="img/home/partners-4.png" alt="..."></div>
+                </div>
             </div>
-            <div class="col-4">
+            <div class="col-6">
                 <h4>Números</h4>
-                <div>
-                    <div>
-                        <div><i class="bi-envelope"></i></div>
-                        <div>texto</div>
+                <div class="numbers">
+                    <div class="numbers-item">
+                        <div class="numbers-item-area-1">
+                            <div class="numbers-item-area-1-icon"><span class="icon-item material-symbols-outlined">handshake</span></div>
+                            <div class="numbers-item-area-1-title">Voluntários</div>
+                        </div>
+                        <div class="numbers-item-area-2">15</div>
                     </div>
-                    <div>15</div>
-                </div>
-                <div>
-                    <div>
-                        <div><i class="bi-envelope"></i></div>
-                        <div>texto</div>
+                    <div class="numbers-item">
+                        <div class="numbers-item-area-1">
+                            <div class="numbers-item-area-1-icon"><span class="icon-item material-symbols-outlined">face_2</span></div>
+                            <div class="numbers-item-area-1-title">Crianças Atendidas</div>
+                        </div>
+                        <div class="numbers-item-area-2">70</div>
                     </div>
-                    <div>70</div>
-                </div>
-                <div>
-                    <div>
-                        <div><i class="bi-envelope"></i></div>
-                        <div>texto</div>
+                    <div class="numbers-item">
+                        <div class="numbers-item-area-1">
+                            <div class="numbers-item-area-1-icon"><span class="icon-item material-symbols-outlined">hub</span></div>
+                            <div class="numbers-item-area-1-title">Famílias Impactads</div>
+                        </div>
+                        <div class="numbers-item-area-2">+280</div>
                     </div>
-                    <div>+280</div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <h4>Certificações</h4>
-                <img src="img/home/certifications-1.png" alt="...">
-                <img src="img/home/certifications-2.png" alt="...">
+                <div class="certifications">
+                    <div class="certifications-item">
+                        <div class="certifications-item-ico"><img src="img/home/certifications-1.png" alt="..."></div>
+                        <div class="certifications-item-title">
+                            CEBAS<br>Certificado de Entidade Beneficiente de Assistência Social
+                        </div>
+                    </div>
+                    <div class="certifications-item">
+                        <div class="certifications-item-ico"><img src="img/home/certifications-2.png" alt="..."></div>
+                        <div class="certifications-item-title">
+                            OSCIP<br>Organização da Sociedade Civil de Interesse Público
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -414,12 +434,68 @@
                 <button class="btn btn-warning" type="submit"><i class="bi-envelope-paper-heart"></i><span class="d-none d-lg-inline"> Doe Agora</span></button>
             </div>
         </div>
-        <div class="row">
-            <h3>Empresas Colaboradoras</h3>
-            <img src="img/home/collaborators-1.png" alt="...">
-            <img src="img/home/collaborators-2.png" alt="...">
-            <img src="img/home/collaborators-3.png" alt="...">
-            <img src="img/home/collaborators-4.png" alt="...">            
+        <div class="row mt-4">
+            <h4>Empresas Colaboradoras</h4>
+            <div class="companies">
+                <div id="carouselCompanies" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-theme="dark" data>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselCompanies" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCompanies" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCompanies" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel-item-1 active">
+                            <div class="d-flex flex-row justify-content-between">
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-1.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-2.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-3.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-4.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex flex-row justify-content-between">
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-1.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-2.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-3.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-4.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex flex-row justify-content-between">
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-1.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-2.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-3.png" alt="...">
+                                </div>
+                                <div class="companies-item">
+                                    <img src="img/home/collaborators-4.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="row mt-4"></div>
     </div>
 </div>

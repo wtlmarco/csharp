@@ -1,11 +1,13 @@
 .home{
-    max-width: 1440px;  
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
 }
 
-#home-banner, #home-mission, #home-team, #home-wall, #home-testimonials, #home-news, .home-events, .home-statistics {
+#home-banner, #home-mission, #home-team, #home-wall, #home-testimonials, #home-news, #home-events, #home-statistics {
     margin: auto;
     width: 90%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /*home-banner*/
@@ -41,24 +43,24 @@
     bottom: 1.25rem;
     top:20%;
     left:10%;
-    color: white;
+    color: var(--palette-text-variant);
 }
 
 #carouselBanner .carousel-caption h1 {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid var(--palette-text-variant);
     padding-bottom:5px;
     font-size: 80px;
-    color: white;
+    color: var(--palette-text-variant);
 }
 
 #carouselBanner .carousel-caption h2 {
     font-size: 30px;
-    color: white;
+    color: var(--palette-text-variant);
 }
 
 #carouselBanner .carousel-caption p {
     font-size: 20px;
-    color: white;
+    color: var(--palette-text-variant);
     width: 80%;
 }
 
@@ -100,7 +102,7 @@
     z-index: 10;
     padding: 10px 30px 10px 30px;
     background: rgba(0,0,0,0.7);
-    color: #fff;
+    color: var(--palette-text-variant);
 }
 
 /*home-wall*/
@@ -137,25 +139,148 @@
 
 #home-news div.card-date{
     position: absolute;
-    top: 100px;
+    top: 35%;
     left: 0;
     z-index: 10;
-    padding: 0 10px 10px 10px;
+    padding: 0 20px 10px 20px;
     background: rgba(0,0,0,0.7);
-    color: #fff;
+    color: var(--palette-text-variant);
 }
 
 #home-news span.card-date-day{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #home-news span.card-date-month{
     position: absolute;
-    top:40px;
-    left:14px;
+    top:70%;
+    left:35%;
     font-size: 0.6rem;
 }
 
 #home-news div.card-footer{
     font-size: 10px;
+}
+
+/*home-events*/
+#home-events div.row > div.description {
+    position:relative;
+    text-align: left;
+    color: var(--palette-text-variant);
+    padding: 20px 30px 0px 30px;
+}
+
+#home-events div.row > div.description, 
+#home-events div.row > div.description > div.link > a
+{
+    background-color: var(--palette-text);
+}
+
+#home-events div.row > div.description.mode-1,
+#home-events div.row > div.description.mode-1 > div.link > a
+{
+    background-color: var(--palette-triadic);
+}    
+
+#home-events div.row > div.description.mode-2,
+#home-events div.row > div.description.mode-2 > div.link > a
+{
+    background-color: var(--palette-complementary-variant);
+    color:var(--palette-text);
+}    
+
+#home-events div.row > div.banner {
+    padding: 0;
+    margin: 0;
+}
+
+#home-events div.row > div.banner > img {
+    height:100%;
+    width: 100%;
+}
+
+#home-events div.row > div.description > div.title{
+    font-size: 2.0rem;
+}
+
+#home-events div.row > div.description > div.date{
+    font-size: 0.8rem;
+}
+
+
+#home-events div.row > div.description > div.text{
+    font-size: 0.8rem;
+    min-height: 150px;
+}
+
+#home-events div.row > div.description > div.link{
+    position:absolute;
+    font-size: 0.8rem;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+}
+
+#home-events div.row > div.description > div.link > a{
+    text-decoration:none;
+    color: var(--palette-text-variant);
+}
+
+/*home-statistics*/
+#home-statistics div.numbers{
+    overflow: hidden;
+}
+
+#home-statistics div.numbers > div.numbers-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#home-statistics div.numbers > div.numbers-item > div.numbers-item-area-1{
+    width: 200px;
+    margin-top: 20px;
+}
+
+#home-statistics div.numbers > div.numbers-item > div.numbers-item-area-1 > div.numbers-item-area-1-icon > span.icon-item{
+    color: var(--palette-triadic);
+    font-size: 6.0rem;
+    height: 100px;
+}
+
+#home-statistics div.numbers > div.numbers-item > div.numbers-item-area-1 > div.numbers-item-area-1-title{
+    color: var(--palette-text);
+    font-size: 1.0rem;
+}
+
+#home-statistics div.numbers > div.numbers-item > div.numbers-item-area-2{
+    color: var(--palette-primary);
+    font-size: 5.0rem;
+    font-weight: bold;
+}
+
+#home-statistics div.certifications{
+    overflow: hidden;
+}
+
+#home-statistics div.certifications > div.certifications-item{
+    margin-top:20px;
+    color: var(--palette-text);
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+#home-statistics div.patterns{
+    overflow: hidden;
+}
+
+#home-statistics div.patterns > div.patterns-item{
+    margin-top:20px;
+    color: var(--palette-text);
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+#home-statistics #carouselCompanies > div.carousel-indicators {
+    top:130px;
 }
